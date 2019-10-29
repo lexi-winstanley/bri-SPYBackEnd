@@ -8,6 +8,7 @@ module.exports = function (app) {
         db.User.create(req.body).then(function(dbUser) {
             console.log(dbUser);
         });
+        res.send('posted');
     });
     
     app.get('/user/:id', function(req, res) {
@@ -15,7 +16,8 @@ module.exports = function (app) {
         console.log('get');
         db.User.findOne({userId: req.params.id}).then(function(dbUser) {
             console.log(dbUser);
+            res.json(dbUser);
         });
-        res.send('hello');
+        // res.send('got');
     });
 };
