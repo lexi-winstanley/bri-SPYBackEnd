@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const ImageTimeSchema = new Schema({
-  body: String
+  time: Number, 
+  userId: String, 
+  imageId: Number
 });
 
 const ImageTime = mongoose.model('ImageTime', ImageTimeSchema);
