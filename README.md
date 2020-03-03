@@ -2,7 +2,7 @@
 [Front End Repository](https://github.com/lexi-winstanley/bri-SPY)
 
 ## Motivation 
-To create a mobile game that would be low stress and fun to play as well as beautiful to look at. 
+To create a mobile game that would be low stress and fun to play as well as beautiful to look at and present opportunity to begin learning React Native.
 
 ## Description
 bri-SPY is a "Where's Waldo?" inspired React Native mobile game in which users pinch-to-zoom and pan to find the hidden character, Brian, then double tap to stop the clock and store their time. If their time beats the stored "Best Time" for that image they are notified. 
