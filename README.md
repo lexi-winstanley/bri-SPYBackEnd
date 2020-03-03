@@ -1,5 +1,5 @@
 # bri-Spy Backend
-[Frontend Repository](https://github.com/lexi-winstanley/bri-SPY)
+[Front End Repository](https://github.com/lexi-winstanley/bri-SPY)
 
 ## Motivation 
 To create a mobile game that would be low stress and fun to play as well as beautiful to look at. 
